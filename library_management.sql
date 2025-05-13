@@ -1,3 +1,11 @@
+-- Drop the database if it already exists (optional for clean setup)
+DROP DATABASE IF EXISTS library_management;
+
+-- Create the new database
+CREATE DATABASE library_management;
+
+-- Select the database for use
+USE library_management;
 
 -- Drop tables if they exist
 DROP TABLE IF EXISTS Loans, BookAuthors, Books, Authors, Members, Categories;
